@@ -1,0 +1,301 @@
+idade,data_nasc,signo,bairro,cidade,altura,peso,tipo_sanguineo,cor,salario
+80,06/12/1940,Sagitário,Passo da Areia,Porto Alegre,"1,78",59,O+,verde,4575.597483659288
+43,09/10/1977,Libra,Santo Inácio,Santa Cruz do Sul,"1,58",84,O+,preto,4040.0893928195255
+43,24/05/1977,Gêmeos,Pátria Nova,Novo Hamburgo,"1,50",56,B+,roxo,6424.499912725096
+74,24/08/1946,Virgem,Vila Arlindo,Arlindo,"1,66",58,A+,vermelho,1287.9298428186119
+42,13/02/1978,Aquário,Quinta,Rio Grande,"1,60",110,B-,amarelo,3803.5899068549734
+31,23/08/1989,Virgem,Nossa Senhora do Rosário,Caxias do Sul,"1,90",64,B+,vermelho,4881.658042845166
+38,15/01/1982,Capricórnio,Padre Réus,Gravataí,"1,59",84,A+,roxo,3042.1694497155668
+67,16/09/1953,Virgem,José Bonifácio,Erechim,"1,72",101,A+,verde,1054.935839697295
+43,19/08/1977,Leão,Capão da Cruz,Sapucaia do Sul,"1,90",73,B+,laranja,6179.475332684272
+42,09/10/1978,Libra,Nossa Senhora Medianeira,Santa Maria,"1,78",60,AB+,laranja,1390.483019079288
+46,03/07/1974,Câncer,Cassino,Rio Grande,"1,50",48,A+,azul,2251.9383513361777
+19,27/11/2001,Sagitário,Belvedere,Santa Cruz do Sul,"1,64",79,AB-,verde,2165.483885986335
+43,25/10/1977,Escorpião,São José,Canoas,"1,73",85,O+,vermelho,6175.09187313444
+60,23/05/1960,Gêmeos,Santana,Porto Alegre,"1,79",82,AB-,vermelho,4606.796640060684
+21,22/02/1999,Peixes,Rubem Berta,Porto Alegre,"1,64",90,B-,preto,3772.064351544823
+70,03/12/1950,Sagitário,União das Vilas,Uruguaiana,"2,00",97,AB-,vermelho,5905.051627328926
+46,22/09/1974,Virgem,São José,Canoas,"1,67",67,O-,verde,6442.258200930431
+43,21/07/1977,Câncer,Itararé,Santa Maria,"1,90",64,O-,amarelo,1313.9237740035574
+71,03/06/1949,Gêmeos,Chácara das Pedras,Porto Alegre,"1,83",81,B-,vermelho,3539.6035658259893
+32,08/09/1988,Virgem,Estância Velha,Canoas,"1,60",79,AB-,laranja,6025.909021892365
+48,12/11/1972,Escorpião,José Alcebíades Oliveira,Santo Ângelo,"1,75",89,AB+,laranja,3932.5768606215825
+23,23/12/1997,Capricórnio,Centro,São Borja,"1,62",82,AB-,azul,4661.29743513044
+26,25/12/1994,Capricórnio,Centro,Viamão,"1,66",88,O+,verde,5168.109831999842
+23,21/11/1997,Escorpião,Centro,São Pedro do Sul,"1,60",89,O+,amarelo,2496.2537265685633
+71,11/01/1949,Capricórnio,Soares,Cachoeira do Sul,"1,84",54,B-,verde,3829.6101249113453
+53,20/06/1967,Gêmeos,Rio dos Sinos,São Leopoldo,"1,72",97,A+,amarelo,4903.658136844273
+72,26/04/1948,Touro,Favila,Alegrete,"1,78",89,O+,azul,3335.038372401813
+24,13/04/1996,Áries,Schettert,Cruz Alta,"1,75",46,B+,amarelo,3857.8276937534106
+62,23/09/1958,Libra,Areal,Pelotas,"1,94",85,O-,vermelho,2981.996360950495
+46,06/12/1974,Sagitário,Guajuviras,Canoas,"1,81",61,AB+,azul,3084.671946268069
+29,07/01/1991,Capricórnio,Rio Branco,Canoas,"1,75",80,O-,laranja,1173.9348341238137
+67,04/04/1953,Áries,Salgado Filho,Santa Maria,"1,85",67,A+,azul,5543.717936119597
+30,06/05/1990,Touro,Capão da Cruz,Sapucaia do Sul,"1,61",96,A-,laranja,5720.087004391698
+18,15/01/2002,Capricórnio,Medianeira,Cachoeira do Sul,"1,72",57,B+,preto,42.7839915063355
+21,12/09/1999,Virgem,Meller Norte,Santo Ângelo,"1,73",64,AB-,amarelo,1634.88451190639
+37,09/06/1983,Gêmeos,Centro,Santa Maria,"1,69",83,B+,azul,1294.3115124921414
+30,06/04/1990,Áries,Faxinal Menino Deus,Santa Cruz do Sul,"1,83",61,AB+,amarelo,6418.862829440899
+22,10/11/1998,Escorpião,Fátima,Canoas,"1,97",84,B+,laranja,5584.391294543143
+56,14/02/1964,Aquário,Kayser,Caxias do Sul,"1,65",95,A+,amarelo,3372.52214962705
+55,12/12/1965,Sagitário,Sarandi,Porto Alegre,"1,65",56,AB-,preto,4115.111975507577
+34,17/09/1986,Virgem,Scharlau,São Leopoldo,"1,85",88,O+,laranja,3867.4166717640373
+61,12/10/1959,Libra,Sarandi,Porto Alegre,"1,92",71,B+,vermelho,3785.0551142711984
+31,08/11/1989,Escorpião,São Cristóvão,Passo Fundo,"1,79",82,O+,amarelo,3761.9791963972975
+32,08/06/1988,Gêmeos,Nossa Senhora do Rosário,Santa Maria,"1,79",94,O+,laranja,4973.79767927979
+48,08/02/1972,Aquário,Azenha,Porto Alegre,"1,87",65,B+,roxo,6562.45878664443
+39,13/10/1981,Libra,Estância Velha,Canoas,"1,92",84,O+,roxo,23.96354033476501
+31,05/12/1989,Sagitário,Centro,Pouso Novo,"1,72",91,A-,verde,6447.873347039971
+75,05/11/1945,Escorpião,Jardim América,Caxias do Sul,"1,78",87,B-,preto,5203.158890904446
+64,04/11/1956,Escorpião,Kayser,Caxias do Sul,"1,90",72,A-,laranja,4615.501972105652
+41,22/12/1979,Capricórnio,Centro,Canoas,"1,98",79,A+,roxo,6045.902684665294
+59,13/06/1961,Gêmeos,Saint Pastous,Alegrete,"1,85",75,O-,preto,3681.2480211407074
+31,27/09/1989,Libra,Farrapos,Porto Alegre,"1,82",85,O+,vermelho,4580.204245235535
+71,27/06/1949,Câncer,Harmonia,Canoas,"1,74",48,AB+,preto,613.7079024578527
+54,04/02/1966,Aquário,Cassino,Rio Grande,"1,66",51,B-,vermelho,6160.701250607654
+63,05/08/1957,Leão,Bela Vista,Caxias do Sul,"1,72",52,A+,azul,614.5630003329179
+50,14/02/1970,Aquário,São Sebastião,Porto Alegre,"1,64",77,A-,amarelo,6256.64070230361
+42,02/01/1978,Capricórnio,Parque Marechal Rondon,Cachoeirinha,"1,66",58,A+,roxo,2030.2033969303627
+21,25/10/1999,Escorpião,Cidade Nova,Caxias do Sul,"1,72",60,B+,preto,5088.9076226427205
+79,19/07/1941,Câncer,Caça e Pesca,Gravataí,"1,85",78,A-,laranja,2005.8592566845357
+41,02/06/1979,Gêmeos,Nossa Senhora de Fátima,Cachoeira do Sul,"1,54",87,B+,azul,3891.5609933135975
+31,01/05/1989,Touro,Santa Tereza,Porto Alegre,"1,69",75,A-,preto,1940.7776541787237
+51,19/03/1969,Peixes,Santa Fé,Gravataí,"1,84",82,A-,verde,2473.62550439439
+41,12/09/1979,Virgem,Industrial I,Bagé,"1,60",89,A+,azul,3623.1284881929905
+33,25/11/1987,Sagitário,Estalagem,Viamão,"1,80",73,O-,preto,2848.02099772766
+80,15/09/1940,Virgem,Ana Nery,Santa Cruz do Sul,"1,72",84,AB+,vermelho,6518.733434358457
+46,03/09/1974,Virgem,Desvio Rizzo,Caxias do Sul,"1,81",66,AB+,preto,1226.092392901887
+40,02/02/1980,Aquário,Centro,Pinhal,"1,76",71,AB-,vermelho,6057.216990004167
+36,16/11/1984,Escorpião,Vila Mauá,Cachoeirinha,"1,60",48,A+,azul,2360.3592426610985
+18,02/03/2002,Peixes,Medianeira,Porto Alegre,"1,66",79,O+,vermelho,3639.942503333008
+26,14/12/1994,Sagitário,Mário Quintana,Porto Alegre,"1,75",45,O+,vermelho,4781.284072774515
+42,25/08/1978,Virgem,Santa Rita de Cássia,Rio Grande,"1,83",57,AB-,azul,3011.1399529657815
+72,19/02/1948,Aquário,Boa Vista,Porto Alegre,"1,68",104,AB+,azul,6706.262082169297
+22,10/06/1998,Gêmeos,Boa Vista,Sapucaia do Sul,"1,64",68,AB+,preto,1625.8656598126236
+68,04/08/1952,Leão,Scharlau,São Leopoldo,"1,85",60,O-,verde,6138.642224174984
+80,20/04/1940,Áries,Mascarenhas de Moraes,Uruguaiana,"1,73",58,A+,amarelo,3000.7196195869187
+23,26/08/1997,Virgem,Piratini,Alvorada,"1,70",96,AB+,vermelho,2580.314544321679
+23,16/04/1997,Áries,Pedreira,Santa Cruz do Sul,"1,76",58,AB+,verde,1721.873715613368
+58,25/06/1962,Câncer,Forqueta,Caxias do Sul,"1,69",110,B+,laranja,1878.0191573365785
+77,22/11/1943,Sagitário,Jardim Krahe,Viamão,"1,64",74,B-,azul,5519.0912060625315
+31,23/01/1989,Aquário,Sete,Sapucaia do Sul,"1,73",86,B-,amarelo,2983.1474229818105
+78,07/04/1942,Áries,Santa Catarina,Caxias do Sul,"1,62",55,B+,verde,3737.0399167234827
+54,15/01/1966,Capricórnio,Medianeira,Porto Alegre,"1,71",67,O-,verde,5452.780015803326
+70,23/03/1950,Áries,Santa Tereza,Porto Alegre,"1,67",74,B+,vermelho,4521.894089690462
+78,17/09/1942,Virgem,Boa Vista,Novo Hamburgo,"1,65",56,A-,laranja,470.2132045578388
+51,02/12/1969,Sagitário,Nossa Senhora das Graças,Caxias do Sul,"1,66",83,B+,azul,2295.6606114782926
+23,27/07/1997,Leão,Aguiar,Santo Ângelo,"1,76",75,AB-,verde,1178.4883164664786
+73,24/02/1947,Peixes,São Cristóvão,Passo Fundo,"1,59",63,A+,amarelo,2317.7072014943396
+25,20/04/1995,Áries,Fião,São Leopoldo,"1,80",79,B+,vermelho,4827.918573440827
+19,06/07/2001,Câncer,Ipanema,Porto Alegre,"1,90",67,A+,vermelho,369.8423179962303
+71,22/03/1949,Áries,Dihel,Sapucaia do Sul,"1,67",59,B-,vermelho,4863.717361438764
+40,13/07/1980,Câncer,Areal,Pelotas,"1,72",67,A-,vermelho,198.56266832431507
+61,15/12/1959,Sagitário,Partenon,Porto Alegre,"1,88",68,AB-,preto,4978.908332982306
+60,14/06/1960,Gêmeos,Centro,Bagé,"1,93",103,B+,preto,3143.879363454831
+73,10/03/1947,Peixes,Coronel Aparício Borges,Porto Alegre,"1,68",57,AB+,azul,4987.238407716537
+54,24/10/1966,Escorpião,São Judas Tadeu,Gravataí,"1,82",73,B-,preto,4817.074109791817
+60,24/06/1960,Câncer,Triângulo,Erechim,"1,83",51,O-,vermelho,1087.2811584482577
+18,08/07/2002,Câncer,Vila Jardim,Porto Alegre,"1,70",50,A-,vermelho,970.9196451494226
+63,24/05/1957,Gêmeos,Distrito Industrial,Santa Cruz do Sul,"1,72",52,O-,laranja,4005.776960690306
+45,16/03/1975,Peixes,Primavera,Novo Hamburgo,"1,73",58,B-,verde,211.47485790093313
+32,27/04/1988,Touro,Restinga,Porto Alegre,"1,93",72,A-,vermelho,7083.134392099378
+24,16/01/1996,Capricórnio,Nova Cachoeirinha,Cachoeirinha,"1,59",69,O+,amarelo,1587.394964555094
+75,01/01/1945,Capricórnio,Santa Maria,Passo Fundo,"1,75",59,A+,vermelho,5630.179661621752
+61,04/04/1959,Áries,Santa Marta,Passo Fundo,"1,51",48,B+,roxo,4520.848423064771
+20,24/02/2000,Peixes,Mário Pilau,Santo Ângelo,"1,60",61,AB+,vermelho,6571.0522618328805
+54,27/04/1966,Touro,Santos Dumont,São Leopoldo,"1,60",67,B-,vermelho,4678.478734319907
+65,01/07/1955,Câncer,Lucas Araújo,Passo Fundo,"1,69",64,O-,preto,4652.863991135155
+30,18/04/1990,Áries,Diehl,Novo Hamburgo,"1,93",64,A-,laranja,3540.9441346475605
+27,21/07/1993,Câncer,Mário Quintana,Porto Alegre,"1,72",54,B+,laranja,3188.2237080500345
+76,12/05/1944,Touro,Nossa Senhora das Graças,Caxias do Sul,"1,64",87,AB+,vermelho,7177.3593835230295
+49,22/02/1971,Peixes,Marechal Floriano,Caxias do Sul,"1,60",83,O+,azul,3255.484638117516
+74,26/09/1946,Libra,Bela Vista,Caxias do Sul,"1,56",50,A-,roxo,7049.934575961704
+75,10/04/1945,Áries,Jardim Lindóia,Porto Alegre,"1,82",89,O-,verde,4890.148737020471
+76,08/06/1944,Gêmeos,Centenário,Caxias do Sul,"1,64",89,B-,verde,1046.6690567494459
+71,14/06/1949,Gêmeos,Centro,Esteio,"1,87",103,O-,vermelho,573.9776806880649
+61,22/08/1959,Leão,Arroio da Manteiga,São Leopoldo,"1,71",103,A-,vermelho,4143.180179755301
+74,03/09/1946,Virgem,Glória,Porto Alegre,"1,55",78,O-,roxo,1512.0438825675533
+51,03/12/1969,Sagitário,Praia de Belas,Porto Alegre,"1,54",81,A+,amarelo,74.29893599316559
+32,06/04/1988,Áries,Aeroporto,Uruguaiana,"1,84",56,A-,verde,3901.558786704694
+54,27/01/1966,Aquário,Planaltina,Passo Fundo,"1,69",84,O-,verde,3288.3569879126117
+49,01/01/1971,Capricórnio,Centro,Viamão,"1,83",72,O+,amarelo,3194.2309331832435
+68,04/05/1952,Touro,Macedo,Alegrete,"1,67",104,AB-,vermelho,796.7110896369657
+75,23/11/1945,Sagitário,Carvalho,Cachoeira do Sul,"1,96",110,O+,vermelho,4281.4718281323
+37,04/01/1983,Capricórnio,Castelo Branco,Gravataí,"1,82",69,O-,amarelo,5464.487651395843
+69,17/06/1951,Gêmeos,Esplanada,Caxias do Sul,"1,60",81,B-,amarelo,2763.985480300083
+60,11/02/1960,Aquário,Scharlau,São Leopoldo,"1,80",69,B-,vermelho,5134.84311575923
+60,06/08/1960,Leão,Vila Jardim América,Cachoeirinha,"1,83",81,O-,preto,2919.972807107434
+35,24/06/1985,Câncer,Km 3,Santa Maria,"1,60",110,O-,vermelho,4395.438640025422
+24,18/12/1996,Sagitário,Centro,Marcorama,"1,76",85,A+,amarelo,5003.663781877735
+39,02/02/1981,Aquário,Bom Jesus,Porto Alegre,"1,61",85,A-,amarelo,2334.24668514235
+70,06/04/1950,Áries,Centro,Gravataí,"1,76",61,A-,preto,6165.120137650422
+37,05/10/1983,Libra,Vera Cruz,Passo Fundo,"1,73",78,B+,verde,3570.310693319121
+62,17/01/1958,Capricórnio,Restinga,Porto Alegre,"1,93",68,AB+,roxo,5355.779348188076
+76,25/06/1944,Câncer,Nossa Senhora de Fátima,Cachoeira do Sul,"1,55",78,AB+,amarelo,6902.29644305145
+64,10/10/1956,Libra,Vila Nova,Alegrete,"1,73",104,AB+,verde,1549.451260350277
+67,13/03/1953,Peixes,Barnabé,Gravataí,"1,76",55,A+,preto,3609.211955727664
+47,05/11/1973,Escorpião,Restinga,Porto Alegre,"1,50",45,O+,verde,566.5602403063706
+48,01/02/1972,Aquário,Schettert,Cruz Alta,"1,80",82,AB+,vermelho,2737.197817521894
+46,19/10/1974,Libra,Cidade Alta,Alegrete,"1,60",50,AB-,preto,7174.038878132618
+71,13/04/1949,Áries,Centro Histórico,Porto Alegre,"1,60",84,B-,verde,2526.3598449959136
+33,10/07/1987,Câncer,Serrano,Caxias do Sul,"1,53",67,O-,roxo,3141.361609004474
+56,04/11/1964,Escorpião,Santa Tereza,Porto Alegre,"1,65",58,B-,verde,1900.086933256
+20,24/08/2000,Virgem,Boa Saúde,Novo Hamburgo,"1,78",68,A+,vermelho,6565.767966401309
+55,25/02/1965,Peixes,Nova Cachoeirinha,Cachoeirinha,"1,94",51,A+,vermelho,3030.1219550964643
+54,14/12/1966,Sagitário,Passo das Pedras,Porto Alegre,"1,82",60,B+,roxo,287.9623135042953
+57,05/11/1963,Escorpião,América,Rio Grande,"1,83",48,A-,azul,406.9780233234584
+52,06/08/1968,Leão,Formoza,Alvorada,"1,75",54,A+,vermelho,4738.075871750034
+26,01/05/1994,Touro,Barragem,Pelotas,"1,51",57,B-,laranja,3613.225088818936
+55,11/12/1965,Sagitário,Arroio Grande,Santa Cruz do Sul,"1,64",89,B-,azul,4196.258576413079
+27,14/05/1993,Touro,Boqueirão,Passo Fundo,"1,67",88,AB+,verde,6257.7761867588
+30,04/06/1990,Gêmeos,Aparecida,Alvorada,"1,96",103,A+,roxo,4981.49494235723
+23,26/03/1997,Áries,Pinheiro Machado,Santa Maria,"1,77",51,AB+,roxo,4741.263330022731
+68,03/04/1952,Áries,Mauá,Novo Hamburgo,"1,80",65,O+,verde,1284.8622999172662
+37,24/12/1983,Capricórnio,Bonfim,Santa Cruz do Sul,"1,99",78,B+,amarelo,1808.6135676873603
+51,26/04/1969,Touro,Guajuviras,Canoas,"1,67",100,AB-,amarelo,1992.2023563300168
+27,27/07/1993,Leão,Agronomia,Porto Alegre,"1,87",63,A+,azul,2552.3473322057557
+46,11/06/1974,Gêmeos,Marina,Cachoeira do Sul,"1,53",81,O+,amarelo,5023.921764527808
+24,08/01/1996,Capricórnio,Visconde de Mauá,Cachoeira do Sul,"1,65",61,A-,roxo,2190.9038458600457
+71,02/03/1949,Peixes,Prado,Alegrete,"1,70",85,AB-,vermelho,6030.515043806194
+69,01/04/1951,Áries,Vila Augusta,Viamão,"1,69",49,B+,amarelo,1951.8218419700559
+38,02/12/1982,Sagitário,Progresso,Alegrete,"1,64",77,O+,vermelho,6581.686888823663
+62,11/07/1958,Câncer,Galópolis,Caxias do Sul,"1,69",86,O-,vermelho,6311.759515318681
+72,03/12/1948,Sagitário,São João,Porto Alegre,"1,76",60,A-,verde,6492.511314749709
+76,23/06/1944,Câncer,Rubem Berta,Porto Alegre,"1,59",47,O-,preto,905.3403902288401
+63,14/10/1957,Libra,Porto,Pelotas,"1,74",109,O+,vermelho,5602.371165591137
+41,26/11/1979,Sagitário,Centro,Santana do Livramento,"1,68",75,AB+,verde,2755.6956841654246
+56,27/10/1964,Escorpião,São Luiz,Caxias do Sul,"1,75",88,A-,azul,3430.2580337085014
+67,03/09/1953,Virgem,Bom Jesus,Porto Alegre,"1,75",49,O+,amarelo,1283.6775171649033
+29,01/04/1991,Áries,Esmeralda,Santa Cruz do Sul,"1,67",106,AB-,verde,5217.011187926917
+78,07/07/1942,Câncer,Tabajara Brites,Uruguaiana,"1,63",51,B+,amarelo,6017.430053203889
+35,06/09/1985,Virgem,Esperança,Erechim,"1,81",57,B+,laranja,2035.2208987357308
+40,17/03/1980,Peixes,Marechal Rondon,Canoas,"1,79",106,O-,preto,2509.3468094400746
+18,15/04/2002,Áries,Campestre do Menino Deus,Santa Maria,"1,87",101,O-,roxo,6546.638926028073
+70,21/04/1950,Touro,Aliança,Cruz Alta,"1,64",75,O+,azul,4846.290519190977
+63,13/03/1957,Peixes,Marechal Rondon,Canoas,"1,69",82,B+,roxo,2378.456391229189
+42,22/07/1978,Leão,Piratini,Alvorada,"1,92",50,A+,preto,1645.0933006621922
+78,15/06/1942,Gêmeos,Laranjal,Pelotas,"1,74",71,B+,azul,6028.660536074252
+53,15/03/1967,Peixes,Lomba do Pinheiro,Porto Alegre,"1,93",64,O-,verde,5140.390712493045
+68,27/03/1952,Áries,Estrela D'Alva,Bagé,"1,78",85,A+,vermelho,6978.286174005294
+70,02/07/1950,Câncer,Mário Quintana,Porto Alegre,"1,77",79,B-,roxo,3709.50890496193
+57,23/09/1963,Libra,Aberta dos Morros,Porto Alegre,"1,77",85,O+,verde,4115.7757734059805
+26,02/10/1994,Libra,Santo Onofre,Viamão,"1,96",86,AB-,vermelho,1974.9134567535616
+29,03/04/1991,Áries,Rincão,Novo Hamburgo,"1,79",79,O+,verde,2062.207826332107
+48,11/01/1972,Capricórnio,Passo da Areia,Porto Alegre,"1,73",91,A+,vermelho,344.43152748007077
+61,25/05/1959,Gêmeos,Indubrás,Santo Ângelo,"1,92",104,AB+,amarelo,2684.505299659262
+19,25/08/2001,Virgem,Vila Carlos Antônio Wilkens,Cachoeirinha,"1,69",90,A-,verde,6274.21831285652
+78,23/12/1942,Capricórnio,Aparecida,Alvorada,"1,60",70,AB-,azul,2847.1484580896604
+61,04/03/1959,Peixes,Cassino,Rio Grande,"2,00",81,O+,roxo,3518.6335833941466
+37,14/03/1983,Peixes,Mato Grande,Canoas,"1,88",59,A-,verde,2730.1418639363646
+48,08/12/1972,Sagitário,Jardim Universitário,Viamão,"1,60",102,B+,vermelho,3814.228288356623
+35,03/03/1985,Peixes,Pio X,Caxias do Sul,"1,83",92,A-,vermelho,6447.495237280479
+30,02/03/1990,Peixes,Bela Vista,Alvorada,"1,77",69,O+,roxo,476.0169363773638
+53,27/11/1967,Sagitário,Tabajara Brites,Uruguaiana,"1,61",90,B-,verde,5041.999809875886
+41,11/08/1979,Leão,Três Vendas,Pelotas,"1,54",82,A+,laranja,1300.8943764926444
+19,05/10/2001,Libra,Ana Nery,Santa Cruz do Sul,"1,75",50,B+,vermelho,3454.3095502674682
+73,24/07/1947,Leão,Vila Junção,Rio Grande,"1,57",72,AB-,amarelo,214.55999030352362
+65,01/12/1955,Sagitário,Petrópolis,Novo Hamburgo,"1,63",79,O+,vermelho,6980.080813456142
+36,05/12/1984,Sagitário,Arroio da Manteiga,São Leopoldo,"1,54",62,A-,vermelho,2135.319344063506
+71,21/08/1949,Leão,Agronomia,Porto Alegre,"1,82",90,B-,azul,6014.186364411088
+68,22/11/1952,Sagitário,Niterói,Canoas,"1,84",75,B+,preto,1416.594080930416
+28,01/07/1992,Câncer,Centro Histórico,Porto Alegre,"1,67",60,AB+,amarelo,6061.183493429792
+64,10/11/1956,Escorpião,Diamantino,Caxias do Sul,"1,70",64,AB+,azul,3853.3186713624095
+46,07/01/1974,Capricórnio,Getúlio Vargas,Bagé,"1,72",104,B+,azul,5768.347149164412
+69,04/10/1951,Libra,Vera Cruz,Passo Fundo,"1,95",72,B-,laranja,4591.669024550707
+62,25/04/1958,Touro,COHAB do Armour,Santana do Livramento,"1,85",46,B-,amarelo,1423.074563037225
+43,17/09/1977,Virgem,Niterói,Canoas,"1,88",78,O+,verde,632.6040803955965
+44,04/06/1976,Gêmeos,São Jorge,Novo Hamburgo,"1,65",70,AB+,preto,2231.7180434333195
+36,21/07/1984,Câncer,Protásio Alves,Porto Alegre,"1,85",106,A-,verde,4661.537376712546
+70,19/01/1950,Capricórnio,Centro,Pelotas,"1,83",72,AB+,laranja,2412.7148429931112
+18,24/12/2002,Capricórnio,Boqueirão,Passo Fundo,"1,66",88,AB-,verde,3884.0012977538086
+72,27/12/1948,Capricórnio,Guajuviras,Canoas,"1,99",92,O-,roxo,5836.285461739117
+48,22/02/1972,Peixes,São Jorge,Bagé,"1,50",52,O-,amarelo,4892.370857244073
+47,11/05/1973,Touro,Parque da Matriz,Cachoeirinha,"1,55",89,A+,vermelho,5960.650729256984
+66,23/06/1954,Câncer,COHAB,Cachoeirinha,"1,74",67,AB+,azul,1809.8751998412379
+51,08/06/1969,Gêmeos,Areal,Pelotas,"1,62",69,B+,vermelho,1364.0621043460694
+45,14/06/1975,Gêmeos,São Luiz Gonzaga,Passo Fundo,"1,89",89,B-,laranja,1934.0617191586734
+18,27/05/2002,Gêmeos,Santana,Porto Alegre,"1,56",79,AB+,vermelho,3015.617308385444
+43,15/02/1977,Aquário,Santo Onofre,Viamão,"1,93",68,AB+,verde,7134.82412386829
+34,01/10/1986,Libra,Cassino,Rio Grande,"1,74",95,AB-,roxo,1152.69164209947
+34,23/11/1986,Sagitário,Aliança,Santo Ângelo,"1,92",104,B+,laranja,3738.7660978891035
+19,11/03/2001,Peixes,Aparecida,Alvorada,"1,69",66,O-,vermelho,6562.905063796751
+44,24/01/1976,Aquário,Esplanada,Caxias do Sul,"1,72",75,B+,laranja,551.049649626911
+29,04/07/1991,Câncer,Carajá,Santana do Livramento,"1,77",104,B+,azul,6525.958969404144
+53,21/12/1967,Sagitário,Vargas,Sapucaia do Sul,"1,66",102,O+,azul,837.5490179976516
+60,01/08/1960,Leão,Jardim Krahe,Viamão,"1,79",81,B-,azul,3125.7354358155562
+33,12/08/1987,Leão,Aparecida,Alvorada,"1,68",70,B-,vermelho,3044.1839176613926
+73,08/02/1947,Aquário,Protásio Alves,Porto Alegre,"1,64",75,AB-,vermelho,6024.635620292323
+46,02/08/1974,Leão,Oliveira,Santo Ângelo,"1,87",57,A+,amarelo,1890.2739044004757
+63,09/03/1957,Peixes,Nossa Senhora da Saúde,Caxias do Sul,"1,92",61,A-,vermelho,1298.4771395689831
+24,21/05/1996,Gêmeos,Cabo Luís Quevedo,Uruguaiana,"1,70",108,AB-,azul,5019.044806947942
+59,06/03/1961,Peixes,Ponta Grossa,Porto Alegre,"1,83",84,B+,preto,5277.499424945451
+22,05/11/1998,Escorpião,Jardim Carvalho,Porto Alegre,"1,62",62,AB+,verde,2835.5891387180336
+60,27/11/1960,Sagitário,Jardim,Sapucaia do Sul,"1,76",60,O-,vermelho,292.09142681300193
+50,01/12/1970,Sagitário,Porto,Pelotas,"1,62",61,B-,laranja,3737.5482604326007
+69,18/11/1951,Escorpião,Guajuviras,Canoas,"1,77",75,AB-,roxo,2216.695451943397
+21,09/12/1999,Sagitário,Cristal,Erechim,"1,66",45,O-,azul,4482.170754891325
+61,07/03/1959,Peixes,Centro,Uruguaiana,"1,77",90,A-,laranja,1697.5765320122775
+53,24/11/1967,Sagitário,Triângulo,Erechim,"1,53",82,B-,amarelo,2266.9562212077285
+39,25/06/1981,Câncer,Centro,Santa Maria,"1,63",52,A-,roxo,4264.83453393406
+33,12/02/1987,Aquário,Vila Mattos,Passo Fundo,"1,55",79,O+,azul,1189.8677351478905
+30,22/07/1990,Leão,Partenon,Porto Alegre,"1,90",79,A-,vermelho,1628.3682057389021
+30,08/02/1990,Aquário,Igara,Canoas,"1,55",76,A-,roxo,829.3745639464228
+70,20/08/1950,Leão,Vera Cruz,Gravataí,"1,72",51,A-,preto,4775.519978191319
+41,16/09/1979,Virgem,Tarumã,Bagé,"1,66",77,A-,amarelo,3652.0898317545407
+71,07/04/1949,Áries,Passo da Areia,Porto Alegre,"1,80",69,B+,preto,5077.267296285506
+30,04/02/1990,Aquário,Parque Ipiranga,Gravataí,"1,51",85,AB+,verde,2356.278357570303
+51,14/10/1969,Libra,Santos Dumont,São Leopoldo,"1,87",79,AB+,amarelo,1040.3958370568025
+74,13/02/1946,Aquário,Cruzeiro,Caxias do Sul,"1,71",85,AB+,preto,6570.3722245573
+51,26/03/1969,Áries,Areal,Pelotas,"1,68",98,B+,amarelo,5963.181992782969
+35,17/02/1985,Aquário,Aberta dos Morros,Porto Alegre,"1,75",78,A+,vermelho,2973.2026022797986
+26,22/03/1994,Áries,Vila Mauá,Cachoeirinha,"1,71",77,AB-,verde,5167.001344661776
+30,19/10/1990,Libra,Pasqualini,Sapucaia do Sul,"1,75",66,O+,preto,3525.717815554901
+67,25/02/1953,Peixes,Santa Marta,Passo Fundo,"1,94",100,AB+,azul,6080.246045679817
+27,12/08/1993,Leão,Navegantes,Porto Alegre,"1,51",68,B-,amarelo,5108.048409353727
+49,05/04/1971,Áries,Ideal,Novo Hamburgo,"1,60",47,A+,roxo,3048.7608233729575
+24,27/10/1996,Escorpião,Vargas,Sapucaia do Sul,"1,75",69,B+,laranja,2796.612292328417
+23,03/07/1997,Câncer,Arroio Grande,Santa Cruz do Sul,"1,91",82,O-,verde,1249.8805141425485
+62,12/11/1958,Escorpião,Serrano,Caxias do Sul,"1,52",68,O-,amarelo,2760.8651999263902
+57,19/09/1963,Virgem,Lomba Grande,Novo Hamburgo,"1,80",87,B+,preto,2553.995144025883
+67,19/07/1953,Câncer,Bela Vista,Caxias do Sul,"1,70",104,B-,roxo,332.51803058646965
+32,19/04/1988,Áries,Centro,Sapucaia do Sul,"1,86",94,O+,roxo,4384.247336079817
+69,20/02/1951,Peixes,Vila Santa Tereza,Rio Grande,"1,69",57,O+,azul,4774.8832013745
+35,02/08/1985,Leão,Diamantino,Caxias do Sul,"1,76",51,A+,vermelho,3258.2314624903465
+24,11/06/1996,Gêmeos,Rauber,Santa Cruz do Sul,"1,67",86,A-,laranja,4140.81509630875
+68,25/05/1952,Gêmeos,Marechal Rondon,Canoas,"1,71",57,O+,verde,6992.077974235913
+27,13/04/1993,Áries,Jóquei Clube,Uruguaiana,"1,62",45,O-,verde,4055.3218587804513
+53,25/09/1967,Libra,Salgado Filho,Gravataí,"1,78",50,A+,azul,3226.5542343620764
+24,24/12/1996,Capricórnio,Mauá,Novo Hamburgo,"1,82",108,B+,amarelo,2885.477316866149
+78,04/03/1942,Peixes,Ideal,Novo Hamburgo,"1,77",107,B-,verde,1931.9681057961945
+74,02/12/1946,Sagitário,Medianeira,Porto Alegre,"1,76",78,B-,laranja,6234.853920740785
+73,18/05/1947,Touro,Bom Jesus,Porto Alegre,"1,62",60,B-,verde,4104.419755795857
+44,13/12/1976,Sagitário,Divisa,Santana do Livramento,"1,67",81,O+,vermelho,5991.052663408051
+24,24/01/1996,Aquário,Camobi,Santa Maria,"1,99",58,AB+,amarelo,2797.9467668355483
+70,09/12/1950,Sagitário,Centro,Passo Fundo,"1,83",84,B-,preto,5818.711354799398
+80,23/10/1940,Escorpião,Cidade de Águeda,Rio Grande,"1,64",56,B-,roxo,2293.968829598253
+55,24/02/1965,Peixes,Rio dos Sinos,São Leopoldo,"1,68",70,AB+,amarelo,6483.112870339692
+37,01/10/1983,Libra,Estalagem,Viamão,"1,80",79,B+,vermelho,2583.049172499417
+52,13/12/1968,Sagitário,Vera Cruz,Alegrete,"1,80",79,O-,vermelho,3692.3760184404587
+57,01/11/1963,Escorpião,Centro,Sapiranga,"1,78",50,O+,laranja,4099.639910464301
+64,01/04/1956,Áries,Três Vendas,Pelotas,"1,58",47,B-,amarelo,3980.2132885011183
+46,10/05/1974,Touro,Salgado Filho,Santa Maria,"1,57",50,O-,verde,6412.937535276646
+69,06/11/1951,Escorpião,São José,Caxias do Sul,"1,79",70,A-,amarelo,264.74170329708187
+75,14/02/1945,Aquário,Serrano,Caxias do Sul,"1,91",56,B-,preto,5379.200242581514
+73,25/04/1947,Touro,Presidente Vargas,Caxias do Sul,"1,63",50,O-,preto,5395.298824918273
+20,17/07/2000,Câncer,Planaltina,Passo Fundo,"1,64",75,B-,roxo,7163.209304128573
+71,06/11/1949,Escorpião,Rondônia,Novo Hamburgo,"1,67",106,A+,amarelo,1832.0933848251434
+18,11/03/2002,Peixes,Progresso,Alegrete,"2,00",64,B+,roxo,6476.468791651559
+57,02/05/1963,Touro,Restinga,Porto Alegre,"1,64",88,AB-,laranja,4417.052409574363
+64,10/03/1956,Peixes,Ana Rech,Caxias do Sul,"1,66",61,A+,laranja,2149.9960200663227
+21,08/01/1999,Capricórnio,Espírito Santo,Porto Alegre,"1,65",74,B+,verde,3609.2299797157166
+58,23/09/1962,Libra,Boa Vista,São Leopoldo,"1,78",55,B-,vermelho,6944.241609578064
+22,10/08/1998,Leão,Linha Santa Cruz,Santa Cruz do Sul,"1,61",60,O-,vermelho,450.30655571311416
+44,10/05/1976,Touro,Maringá,Alvorada,"1,55",72,B+,amarelo,3039.785877892798
+31,22/12/1989,Capricórnio,Azambuja,Cruz Alta,"1,50",47,B+,laranja,6854.94108038785
+44,11/11/1976,Escorpião,Nonoai,Porto Alegre,"1,96",87,B-,roxo,3097.8897432312124
+47,03/08/1973,Leão,Marechal Floriano,Caxias do Sul,"1,91",56,O+,verde,5789.703525643091
+30,21/08/1990,Leão,São José,Santa Maria,"1,53",58,AB+,laranja,4111.855427673642
+24,04/05/1996,Touro,Passos dos Ferreiros,Gravataí,"1,54",70,O+,vermelho,2254.3793792207503
+18,10/08/2002,Leão,Cidade de Águeda,Rio Grande,"1,67",78,AB-,verde,2270.4665898795706
+64,19/04/1956,Áries,Canudos,Novo Hamburgo,"1,76",72,B+,roxo,2975.3123650052585
+54,17/04/1966,Áries,Centro,Sapucaia do Sul,"1,77",108,A-,vermelho,3881.4069859921574
