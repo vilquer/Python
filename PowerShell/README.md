@@ -1,4 +1,4 @@
-## Configurações para usar PowerShel do Windows 10 junto com Anaconda 3
+## Configurações para usar PowerShell do Windows 10 junto com Anaconda 3
 
 #### Ativando o PowerShel no Anaconda
 
@@ -11,7 +11,7 @@ conda init powershel
 
 Após este comando será criado automaticamente em %USERPROFILE%\Documents\ uma pasta chamada "PowerShell" ou "WindowsPowerShell"  com um arquivo camado profile.ps1
 
-O Arquivo profile.ps1 terá um conteúdo simillar a este:
+O Arquivo profile.ps1 terá um conteúdo similar a este:
 
 ```
 #region conda initialize
@@ -20,9 +20,9 @@ O Arquivo profile.ps1 terá um conteúdo simillar a este:
 #endregion
 ```
 
-#### Abrindo seu Env automativamente 
+#### Abrindo seu enviroment automaticamente 
 
-Podemos editar o arquivo profile.ps1 e colocar nele uma nova lina depois do "#endregion"
+Podemos editar o arquivo profile.ps1 e colocar nele uma nova linha depois do "#endregion"
 
 com o comando para ativar seu enviroment como o exemplo abaixo:
 
@@ -54,14 +54,14 @@ Edite este arquivo para que tenha este conteúdo:
 # Abre seu enviroment (altere o "meu_env" abaixo pelo nome do seu enviroment de trabalho)
 conda activate meu_env
 
-# Edite aqui para ir sua pasta de trabalho(isso tambem poderá ser feito no arquivo de configurações do Jupyter)
+# Edite aqui para ir sua pasta de trabalho (isso também poderá ser feito no arquivo de configurações do Jupyter)
 # Obs.: o PowerShell, diferente do CMD, não trabalha com "%USERPROFILE%\" mas sim com "$home\"
 cd $home\Documents\GitHub
 
-# Exemplo de caminho para criação do ataho no Windows
+# Exemplo de caminho para criação do atalho no Windows
 # %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe -executionpolicy bypass -noexit -File %USERPROFILE%\Documents\PowerShell\conf\conf.Ps1
 
-# Aqui ciamos uma mensagem na tela.(Tambem pode ser feito com o comando: Echo “Aguarde! O Jupyter ja vai abrir!”)
+# Aqui ciamos uma mensagem na tela. (Tambem pode ser feito com o comando: Echo “Aguarde! O Jupyter ja vai abrir!”)
 Write-Output ""
 Write-Output ""
 Write-Output "Aguarde! O Jupyter ja vai abrir!"
