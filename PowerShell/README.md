@@ -1,4 +1,4 @@
-## Configurações para usar PowerShell do Windows 10 junto com Anaconda 3
+## Configurações para usar PowerShell do Windows 10 com Anaconda 3
 
 #### Ativando o PowerShel no Anaconda
 
