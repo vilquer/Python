@@ -1,4 +1,4 @@
-# Configurações para usar PowerShel do Windows 10 junto com Anaconda 3
+## Configurações para usar PowerShel do Windows 10 junto com Anaconda 3
 
 #### Ativando o PowerShel no Anaconda
 
