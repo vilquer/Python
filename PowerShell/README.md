@@ -79,7 +79,12 @@ jupyter lab
 #### Criando um atalho para powershell apontando para o arquivo de profile que abre o Jupyter
 
 Crie um novo atalho no windows apontando destino: 
+
+##### Windows PoweShel 1.0 (Nativo no Windows)
 %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe -executionpolicy bypass -noexit -File %USERPROFILE%\Documents\PowerShell\conf\conf.Ps1
+
+##### PowerShell 7.0 
+"C:\Program Files\PowerShell\7\pwsh.exe" -executionpolicy bypass -noexit -File %USERPROFILE%\Documents\PowerShell\conf\conf.Ps1
 
 
 
