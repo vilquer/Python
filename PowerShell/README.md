@@ -1,6 +1,6 @@
 ## Configurações para usar PowerShell do Windows 10 com Anaconda 3
 
-#### Ativando o PowerShel no Anaconda
+#### Ativando o PowerShell no Anaconda
 
 Abra o Anaconda Prompt se for seu caso entre no seu enviroment e use o seguinte comando:
 
