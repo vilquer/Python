@@ -9,7 +9,7 @@ conda init powershel
 ```
 
 
-Após este comando será criado automaticamente em %USERPROFILE%\Documents\ uma pasta chamada "PowerShell" ou "WindowsPowerShell"  com um arquivo camado profile.ps1
+Após este comando será criado automaticamente em %USERPROFILE%\Documents\ uma pasta chamada "PowerShell"(PowerShell 7.0) ou "WindowsPowerShell"(Windows PowerShell 1.0 - Nativo no Windows) com um arquivo chamado profile.ps1
 
 O Arquivo profile.ps1 terá um conteúdo similar a este:
 
@@ -40,6 +40,7 @@ Troque o "meu_enviroment" pelo nome do seu enviroment.
 ## Criando um a atalho no Windows para o Jupyter
 
 #### Criando um novo arquivo de profile para personalizar seu atalho
+
 Crie uma pasta chamada "conf" em "%USERPROFILE%\Documents\PowerShell\".
 Copie o arquivo profile.ps1 para "%USERPROFILE%\Documents\PowerShell\conf\" e renomear como "conf.ps1"
 Edite este arquivo para que tenha este conteúdo:
@@ -71,9 +72,6 @@ Write-Output ""
 # aqui você escolhe "jupyter lab" ou "jupter notebook" conforme sua preferência.
 jupyter lab
 ```
-
-
-
 
 
 #### Criando um atalho para powershell apontando para o arquivo de profile que abre o Jupyter
