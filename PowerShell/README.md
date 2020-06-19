@@ -5,7 +5,7 @@
 Abra o Anaconda Prompt se for seu caso entre no seu enviroment e use o seguinte comando:
 
 ```
-conda init powershel
+conda init powershell
 ```
 
 
