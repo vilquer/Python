@@ -1,0 +1,17 @@
+name: env
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - networkx=2.4=py_1
+  - numexpr=2.7.1=py38h7ae7562_1
+  - numpy=1.19.1=py38h72c728b_0
+  - openssl=1.1.1g=he774522_0
+  - pandas=1.1.0=py38h7ae7562_0
+  - python=3.8.5=h5fd99cc_1_cpython
+  - python-dateutil=2.8.1=py_0
+  - python_abi=3.8=1_cp38
+  - sqlite=3.32.3=he774522_1
+
+
