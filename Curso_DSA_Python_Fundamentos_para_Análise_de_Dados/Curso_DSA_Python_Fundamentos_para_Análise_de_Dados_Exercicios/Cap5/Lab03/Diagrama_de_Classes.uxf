@@ -1,0 +1,19 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>300</x><y>0</y><w>230</w><h>220</h></coordinates><panel_attributes>Hahangman
+--
+word: str
+len: int
+letters: list
+listhits: list
+listerros: list
+conta_erros: int
+--
+gess(tetter)
+hangman_over()
+hangman_wow(status)
+hide_word()
+print_game_status()
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
