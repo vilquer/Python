@@ -188,6 +188,7 @@ def main():
 			continue
 
 	os.system('cls')
+	game.hide_word()
 	print(board[0])
 	# Enquanto o jogo não tiver terminado, print do status, solicita uma letra e faz a leitura do caracter
 	while statusjogo == True:
