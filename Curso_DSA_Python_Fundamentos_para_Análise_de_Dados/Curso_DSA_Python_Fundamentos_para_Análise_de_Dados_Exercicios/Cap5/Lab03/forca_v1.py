@@ -144,7 +144,8 @@ class Hangman:
 	def print_game_status(self):
 		global statusjogo, board, nivel
 		os.system('cls')
-		print(board[int(self.conta_erros/nivel)])
+		num = int(self.conta_erros/nivel) if self.conta_erros > 0 else self.conta_erros
+		print(board[num])
 		print('\nlista de acertos')
 		print(self.listhits)
 		print('lista de Erros')
@@ -194,12 +195,12 @@ def main():
 	while statusjogo == True:
 		while True:
 			letra = input('Digite uma letra: ')
-			if letra.isalpha() or len(letra)>1:
+			if letra.isalpha() ^ (len(letra) > 1):
 				break
 			else:
 				print('Jogada Inválida!!!')
 				continue
-		game.guess(letra)
+		game.guess(letra[0])
 		game.hide_word()
 		
 		# Verifica o status do jogo
