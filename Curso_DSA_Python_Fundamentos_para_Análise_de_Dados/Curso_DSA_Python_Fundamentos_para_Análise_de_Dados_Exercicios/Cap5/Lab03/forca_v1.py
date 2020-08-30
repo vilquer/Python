@@ -140,7 +140,7 @@ class Hangman:
 			else:
 				print("_ ", end = "")
 				
-	# Método para checar o status do game e imprimir o board na tela
+	# Método para checar o status do game e imprimir o board na tela, a lista de acertos e erros
 	def print_game_status(self):
 		global statusjogo, board, nivel
 		os.system('cls')
