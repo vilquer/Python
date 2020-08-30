@@ -4,6 +4,9 @@ Data Science Academy - Repositório dos Arquivos do Curso Gratuito Python Fundam
 
 https://www.datascienceacademy.com.br
 
+## Requisitos: 
+https://pt.wikipedia.org/wiki/Jogo_da_forca
+
 ## Imagens das Telas
 <p align="left">
   <img src="imagens/tela1.PNG" width="400" >
