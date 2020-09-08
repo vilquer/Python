@@ -5,5 +5,17 @@ app = Flask(__name__)
 def index():
     return 'Index!'
 
+@app.route("/hello")
+def hello():
+    return("hello Word!!!")
+
+@ app.route("/members")
+def members():
+    return("members")
+
+@app.route("/members/<string:name>/")
+def getMember(name):
+    return(name)
+
 if __name__ == "__main__":
     app.run()
