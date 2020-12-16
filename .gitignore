@@ -124,3 +124,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 Cursos_Udemy-Python-Data-Science-and-Machine-Learning/Dados-do-curso-Python-Data-Science-and-Machine-Learning/
+*.mp4
