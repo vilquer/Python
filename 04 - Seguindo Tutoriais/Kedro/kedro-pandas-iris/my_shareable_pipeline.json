@@ -1,0 +1,253 @@
+{
+    "edges": [
+        {
+            "source": "7fe1d536",
+            "target": "9cdcbc65"
+        },
+        {
+            "source": "d577578a",
+            "target": "9cdcbc65"
+        },
+        {
+            "source": "9cdcbc65",
+            "target": "3f82e2e9"
+        },
+        {
+            "source": "9cdcbc65",
+            "target": "40cc0777"
+        },
+        {
+            "source": "9cdcbc65",
+            "target": "57103b64"
+        },
+        {
+            "source": "9cdcbc65",
+            "target": "7a1cb4c1"
+        },
+        {
+            "source": "f7b62b1a",
+            "target": "e637a11d"
+        },
+        {
+            "source": "3f82e2e9",
+            "target": "e637a11d"
+        },
+        {
+            "source": "e637a11d",
+            "target": "61aea938"
+        },
+        {
+            "source": "61aea938",
+            "target": "d88518f9"
+        },
+        {
+            "source": "40cc0777",
+            "target": "d88518f9"
+        },
+        {
+            "source": "57103b64",
+            "target": "ededd59f"
+        },
+        {
+            "source": "7a1cb4c1",
+            "target": "ededd59f"
+        },
+        {
+            "source": "f1f1425b",
+            "target": "ededd59f"
+        },
+        {
+            "source": "ededd59f",
+            "target": "f7b62b1a"
+        }
+    ],
+    "layers": [],
+    "modular_pipelines": [],
+    "nodes": [
+        {
+            "full_name": "split_data",
+            "id": "9cdcbc65",
+            "modular_pipelines": [],
+            "name": "split",
+            "pipelines": [
+                "de",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "example_iris_data",
+            "id": "7fe1d536",
+            "layer": null,
+            "modular_pipelines": [],
+            "name": "Example Iris Data",
+            "pipelines": [
+                "de",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "example_test_x",
+            "id": "3f82e2e9",
+            "layer": null,
+            "modular_pipelines": [],
+            "name": "Example Test X",
+            "pipelines": [
+                "de",
+                "ds",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "example_test_y",
+            "id": "40cc0777",
+            "layer": null,
+            "modular_pipelines": [],
+            "name": "Example Test Y",
+            "pipelines": [
+                "de",
+                "ds",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "example_train_x",
+            "id": "57103b64",
+            "layer": null,
+            "modular_pipelines": [],
+            "name": "Example Train X",
+            "pipelines": [
+                "de",
+                "ds",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "example_train_y",
+            "id": "7a1cb4c1",
+            "layer": null,
+            "modular_pipelines": [],
+            "name": "Example Train Y",
+            "pipelines": [
+                "de",
+                "ds",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "params:example_test_data_ratio",
+            "id": "d577578a",
+            "layer": null,
+            "modular_pipelines": [],
+            "name": "Params:example Test Data Ratio",
+            "pipelines": [
+                "de",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "parameters"
+        },
+        {
+            "full_name": "predict",
+            "id": "e637a11d",
+            "modular_pipelines": [],
+            "name": "predict",
+            "pipelines": [
+                "ds",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "report_accuracy",
+            "id": "d88518f9",
+            "modular_pipelines": [],
+            "name": "report",
+            "pipelines": [
+                "ds",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "train_model",
+            "id": "ededd59f",
+            "modular_pipelines": [],
+            "name": "train",
+            "pipelines": [
+                "ds",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "example_model",
+            "id": "f7b62b1a",
+            "layer": null,
+            "modular_pipelines": [],
+            "name": "Example Model",
+            "pipelines": [
+                "ds",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "example_predictions",
+            "id": "61aea938",
+            "layer": null,
+            "modular_pipelines": [],
+            "name": "Example Predictions",
+            "pipelines": [
+                "ds",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "parameters",
+            "id": "f1f1425b",
+            "layer": null,
+            "modular_pipelines": [],
+            "name": "Parameters",
+            "pipelines": [
+                "ds",
+                "__default__"
+            ],
+            "tags": [],
+            "type": "parameters"
+        }
+    ],
+    "pipelines": [
+        {
+            "id": "de",
+            "name": "De"
+        },
+        {
+            "id": "ds",
+            "name": "Ds"
+        },
+        {
+            "id": "__default__",
+            "name": "Default"
+        }
+    ],
+    "selected_pipeline": "__default__",
+    "tags": []
+}
