@@ -1,0 +1,9 @@
+https://apisidra.ibge.gov.br/
+
+https://apisidra.ibge.gov.br/desctabapi.aspx?c=1612
+
+cidades
+https://apisidra.ibge.gov.br/LisUnitTabAPI.aspx?c=1612&n=6&i=P
+
+
+
