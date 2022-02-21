@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!-- Adaptado de: http://bl.ocks.org/fancellu/2c782394602a93921faff74e594d1bb1 
+     GNU General Public License, version 3. -->
+<html lang="br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        svg { height:100%; width:100% }
+
+        .node { font-size: 15px; opacity: .8; cursor: pointer;}
+
+        .link { stroke: #999; stroke-opacity: .5; stroke-width: 1,5px; }
+        }
+</style>
+    </style>
+</head>
+<body>
+
+    <h1>Pesquisa grafo IE-RS</h1>
+<svg width="1400" height="800"></svg>
+
+<script src="https://d3js.org/d3.v4.min.js" type="text/javascript"></script>
+<script src="https://d3js.org/d3-selection-multi.v1.js"></script>
+
+
+<script type="application/json" id="grafo">
+    {"directed": true, "multigraph": false, "graph": {}, "nodes": [{"name": "1111003103", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111003103"}, {"name": "96013693000398", "label": "PRODUTOR     ", "type": "J", "id": "96013693000398"}, {"name": "1111005637", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111005637"}, {"name": "00000726109053", "label": "PRODUTOR     ", "type": "F", "id": "00000726109053"}, {"name": "1111034041", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111034041"}, {"name": "00005415306072", "label": "PRODUTOR     ", "type": "F", "id": "00005415306072"}, {"name": "03969195000170", "label": "PRODUTOR     ", "type": "J", "id": "03969195000170"}, {"name": "1111034106", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111034106"}, {"name": "00041296605000", "label": "PRODUTOR     ", "type": "F", "id": "00041296605000"}, {"name": "1111035889", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111035889"}, {"name": "00043938531053", "label": "PRODUTOR     ", "type": "F", "id": "00043938531053"}, {"name": "1111037890", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111037890"}, {"name": "00020242530087", "label": "PRODUTOR     ", "type": "F", "id": "00020242530087"}, {"name": "1111040378", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111040378"}, {"name": "00040418308004", "label": "PRODUTOR     ", "type": "F", "id": "00040418308004"}, {"name": "1111042869", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111042869"}, {"name": "00062092367072", "label": "PRODUTOR     ", "type": "F", "id": "00062092367072"}, {"name": "1111045663", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111045663"}, {"name": "00032244118053", "label": "PRODUTOR     ", "type": "F", "id": "00032244118053"}, {"name": "1111046643", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111046643"}, {"name": "00047980940059", "label": "PRODUTOR     ", "type": "F", "id": "00047980940059"}, {"name": "1111049502", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111049502"}, {"name": "00026961024068", "label": "PRODUTOR     ", "type": "F", "id": "00026961024068"}, {"name": "1111049529", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111049529"}, {"name": "00058860940087", "label": "PRODUTOR     ", "type": "F", "id": "00058860940087"}, {"name": "1111051418", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111051418"}, {"name": "00019137168053", "label": "PRODUTOR     ", "type": "F", "id": "00019137168053"}, {"name": "1111051426", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111051426"}, {"name": "00028724143049", "label": "PRODUTOR     ", "type": "F", "id": "00028724143049"}, {"name": "1111051680", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111051680"}, {"name": "00005715482020", "label": "PRODUTOR     ", "type": "F", "id": "00005715482020"}, {"name": "1111051698", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111051698"}, {"name": "00005715490049", "label": "PRODUTOR     ", "type": "F", "id": "00005715490049"}, {"name": "1111051728", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111051728"}, {"name": "00020438672020", "label": "PRODUTOR     ", "type": "F", "id": "00020438672020"}, {"name": "1111057289", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111057289"}, {"name": "1111057440", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111057440"}, {"name": "1111057459", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111057459"}, {"name": "1111064692", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111064692"}, {"name": "00043936784000", "label": "PRODUTOR     ", "type": "F", "id": "00043936784000"}, {"name": "1111065885", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111065885"}, {"name": "1111066237", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111066237"}, {"name": "1111066245", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111066245"}, {"name": "1111066253", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111066253"}, {"name": "1111066261", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111066261"}, {"name": "1111070579", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111070579"}, {"name": "00032702361072", "label": "PRODUTOR     ", "type": "F", "id": "00032702361072"}, {"name": "1111070960", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111070960"}, {"name": "1111071036", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111071036"}, {"name": "1111071125", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111071125"}, {"name": "1111071133", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111071133"}, {"name": "1111071621", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111071621"}, {"name": "1111071630", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111071630"}, {"name": "1111077026", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111077026"}, {"name": "1111084928", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111084928"}, {"name": "00059069767015", "label": "PRODUTOR     ", "type": "F", "id": "00059069767015"}, {"name": "1111087480", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111087480"}, {"name": "1111087838", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111087838"}, {"name": "1111087846", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111087846"}, {"name": "1111087854", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111087854"}, {"name": "1111087862", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111087862"}, {"name": "1111087870", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111087870"}, {"name": "1111088648", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111088648"}, {"name": "00003631071000", "label": "PRODUTOR     ", "type": "F", "id": "00003631071000"}, {"name": "1111088656", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111088656"}, {"name": "1111089466", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111089466"}, {"name": "1111089725", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111089725"}, {"name": "00002179642067", "label": "PRODUTOR     ", "type": "F", "id": "00002179642067"}, {"name": "1111089822", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111089822"}, {"name": "00082785961072", "label": "PRODUTOR     ", "type": "F", "id": "00082785961072"}, {"name": "1111089830", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111089830"}, {"name": "00003754938088", "label": "PRODUTOR     ", "type": "F", "id": "00003754938088"}, {"name": "1111092300", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111092300"}, {"name": "1111094362", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111094362"}, {"name": "00046160051091", "label": "PRODUTOR     ", "type": "F", "id": "00046160051091"}, {"name": "00039762602072", "label": "PRODUTOR     ", "type": "F", "id": "00039762602072"}, {"name": "00055962238087", "label": "PRODUTOR     ", "type": "F", "id": "00055962238087"}, {"name": "1111095172", "label": "PRODUTOR     ", "type": "IE", "teste": 123, "id": "1111095172"}, {"name": "38033355000150", "label": "PRODUTOR     ", "type": "J", "id": "38033355000150"}], "links": [{"type": "", "source": "1111003103", "target": "96013693000398"}, {"type": "", "source": "1111005637", "target": "00000726109053"}, {"type": "", "source": "1111005637", "target": "96013693000398"}, {"type": "", "source": "1111034041", "target": "00005415306072"}, {"type": "", "source": "1111034041", "target": "03969195000170"}, {"type": "", "source": "1111034106", "target": "00041296605000"}, {"type": "", "source": "1111034106", "target": "03969195000170"}, {"type": "", "source": "1111035889", "target": "00043938531053"}, {"type": "", "source": "1111035889", "target": "03969195000170"}, {"type": "", "source": "1111037890", "target": "00020242530087"}, {"type": "", "source": "1111037890", "target": "00000726109053"}, {"type": "", "source": "1111040378", "target": "00040418308004"}, {"type": "", "source": "1111040378", "target": "96013693000398"}, {"type": "", "source": "1111042869", "target": "00062092367072"}, {"type": "", "source": "1111042869", "target": "96013693000398"}, {"type": "", "source": "1111045663", "target": "00032244118053"}, {"type": "", "source": "1111045663", "target": "96013693000398"}, {"type": "", "source": "1111046643", "target": "00047980940059"}, {"type": "", "source": "1111046643", "target": "03969195000170"}, {"type": "", "source": "1111049502", "target": "00026961024068"}, {"type": "", "source": "1111049502", "target": "03969195000170"}, {"type": "", "source": "1111049529", "target": "00058860940087"}, {"type": "", "source": "1111049529", "target": "03969195000170"}, {"type": "", "source": "1111051418", "target": "00019137168053"}, {"type": "", "source": "1111051418", "target": "03969195000170"}, {"type": "", "source": "1111051426", "target": "00028724143049"}, {"type": "", "source": "1111051426", "target": "03969195000170"}, {"type": "", "source": "1111051680", "target": "00005715482020"}, {"type": "", "source": "1111051680", "target": "03969195000170"}, {"type": "", "source": "1111051698", "target": "00005715490049"}, {"type": "", "source": "1111051698", "target": "03969195000170"}, {"type": "", "source": "1111051728", "target": "00020438672020"}, {"type": "", "source": "1111051728", "target": "03969195000170"}, {"type": "", "source": "1111057289", "target": "00020242530087"}, {"type": "", "source": "1111057440", "target": "96013693000398"}, {"type": "", "source": "1111057459", "target": "96013693000398"}, {"type": "", "source": "1111064692", "target": "00043936784000"}, {"type": "", "source": "1111064692", "target": "03969195000170"}, {"type": "", "source": "1111065885", "target": "03969195000170"}, {"type": "", "source": "1111066237", "target": "03969195000170"}, {"type": "", "source": "1111066245", "target": "03969195000170"}, {"type": "", "source": "1111066253", "target": "03969195000170"}, {"type": "", "source": "1111066261", "target": "03969195000170"}, {"type": "", "source": "1111070579", "target": "00032702361072"}, {"type": "", "source": "1111070579", "target": "03969195000170"}, {"type": "", "source": "1111070960", "target": "00040418308004"}, {"type": "", "source": "1111070960", "target": "96013693000398"}, {"type": "", "source": "1111071036", "target": "03969195000170"}, {"type": "", "source": "1111071125", "target": "03969195000170"}, {"type": "", "source": "1111071133", "target": "03969195000170"}, {"type": "", "source": "1111071621", "target": "96013693000398"}, {"type": "", "source": "1111071630", "target": "96013693000398"}, {"type": "", "source": "1111077026", "target": "03969195000170"}, {"type": "", "source": "1111084928", "target": "00059069767015"}, {"type": "", "source": "1111084928", "target": "03969195000170"}, {"type": "", "source": "1111087480", "target": "03969195000170"}, {"type": "", "source": "1111087838", "target": "03969195000170"}, {"type": "", "source": "1111087846", "target": "03969195000170"}, {"type": "", "source": "1111087854", "target": "03969195000170"}, {"type": "", "source": "1111087862", "target": "03969195000170"}, {"type": "", "source": "1111087870", "target": "03969195000170"}, {"type": "", "source": "1111088648", "target": "00003631071000"}, {"type": "", "source": "1111088648", "target": "03969195000170"}, {"type": "", "source": "1111088656", "target": "03969195000170"}, {"type": "", "source": "1111089466", "target": "00041296605000"}, {"type": "", "source": "1111089466", "target": "96013693000398"}, {"type": "", "source": "1111089725", "target": "00002179642067"}, {"type": "", "source": "1111089725", "target": "03969195000170"}, {"type": "", "source": "1111089822", "target": "00082785961072"}, {"type": "", "source": "1111089822", "target": "03969195000170"}, {"type": "", "source": "1111089830", "target": "00003754938088"}, {"type": "", "source": "1111089830", "target": "03969195000170"}, {"type": "", "source": "1111092300", "target": "00058860940087"}, {"type": "", "source": "1111092300", "target": "03969195000170"}, {"type": "", "source": "1111094362", "target": "00046160051091"}, {"type": "", "source": "1111094362", "target": "00039762602072"}, {"type": "", "source": "1111094362", "target": "00055962238087"}, {"type": "", "source": "1111094362", "target": "96013693000398"}, {"type": "", "source": "1111095172", "target": "38033355000150"}, {"type": "", "source": "1111095172", "target": "96013693000398"}]}
+</script>
+
+<script type="text/javascript">
+    var colors = d3.scaleOrdinal(d3.schemeCategory10);
+
+    var svg = d3.select("svg"),
+        width = +svg.attr("width"),
+        height = +svg.attr("height"),
+        node,
+        link;
+
+    svg.append('defs').append('marker')
+        .attrs({'id':'arrowhead',
+            'viewBox':'-0 -5 10 10',
+            'refX':13,
+            'refY':0,
+            'orient':'auto',
+            'markerWidth':13,
+            'markerHeight':13,
+            'xoverflow':'visible'})
+        .append('svg:path')
+        .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
+        .attr('fill', '#999')
+        .style('stroke','none');
+
+    var simulation = d3.forceSimulation()
+        .force("link", d3.forceLink().id(function (d) {return d.id;}).distance(100).strength(1))
+        .force("charge", d3.forceManyBody())
+        .force("center", d3.forceCenter(width / 2, height / 2));
+
+    d3.json("graph.json", function (error, graph) {
+        if (error) throw error;
+        update(graph.links, graph.nodes);
+    })
+
+    function update(links, nodes) {
+        link = svg.selectAll(".link")
+            .data(links)
+            .enter()
+            .append("line")
+            .attr("class", "link")
+            //.attr('marker-end','url(#arrowhead)') //ceta
+
+        link.append("title")
+            .text(function (d) {return d.type;});
+
+        edgepaths = svg.selectAll(".edgepath")
+            .data(links)
+            .enter()
+            .append('path')
+            .attrs({
+                'class': 'edgepath',
+                'fill-opacity': 0,
+                'stroke-opacity': 0,
+                'id': function (d, i) {return 'edgepath' + i}
+            })
+            .style("pointer-events", "none");
+
+        edgelabels = svg.selectAll(".edgelabel")
+            .data(links)
+            .enter()
+            .append('text')
+            .style("pointer-events", "none")
+            .attrs({
+                'class': 'edgelabel',
+                'id': function (d, i) {return 'edgelabel' + i},
+                'font-size': 10,
+                'fill': '#aaa'
+            });
+
+        edgelabels.append('textPath')
+            .attr('xlink:href', function (d, i) {return '#edgepath' + i})
+            .style("text-anchor", "middle")
+            .style("pointer-events", "none")
+            .attr("startOffset", "50%")
+            .text(function (d) {return d.type});
+
+        node = svg.selectAll(".node")
+            .data(nodes)
+            .enter()
+            .append("g")
+            .attr("class", "node")
+            .call(d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    //.on("end", dragended)
+            );
+
+        node.append("circle")
+            .attr("r", 8) //tamanhao da bola
+            //.style("fill", function (d, i) {return colors(i);}) //cor da Bola
+            .style("fill", function (d, i) {
+            	if (d.type == "IE") { return '#39b500'; }
+            	else if (d.type == "F") { return '#afc9de'; }
+                else { return '#3000b5'; }
+            })
+
+
+        node.append("title") //balão 
+            .text(function (d) {return d.label ;});
+
+        node.append("text") //textio ao lado da bola
+            .attr("dy", -3)
+            .text(function (d) {
+                if (d.type == "IE") { return d.type+" - " + d.name; }
+            	else if (d.type == "F") { return "PF - " + d.name; }
+                else { return "PJ - " + d.name; }
+            });
+
+        simulation
+            .nodes(nodes)
+            .on("tick", ticked);
+
+        simulation.force("link")
+            .links(links);
+    }
+
+    function ticked() {
+        link
+            .attr("x1", function (d) {return d.source.x;})
+            .attr("y1", function (d) {return d.source.y;})
+            .attr("x2", function (d) {return d.target.x;})
+            .attr("y2", function (d) {return d.target.y;});
+
+        node
+            .attr("transform", function (d) {return "translate(" + d.x + ", " + d.y + ")";});
+
+        edgepaths.attr('d', function (d) {
+            return 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y;
+        });
+
+        edgelabels.attr('transform', function (d) {
+            if (d.target.x < d.source.x) {
+                var bbox = this.getBBox();
+
+                rx = bbox.x + bbox.width / 2;
+                ry = bbox.y + bbox.height / 2;
+                return 'rotate(180 ' + rx + ' ' + ry + ')';
+            }
+            else {
+                return 'rotate(0)';
+            }
+        });
+    }
+
+    function dragstarted(d) {
+        if (!d3.event.active) simulation.alphaTarget(0.3).restart()
+        d.fx = d.x;
+        d.fy = d.y;
+    }
+
+    function dragged(d) {
+        d.fx = d3.event.x;
+        d.fy = d3.event.y;
+    }
+
+    // function dragended(d) {
+    //     if (!d3.event.active) simulation.alphaTarget(0);
+    //     d.fx = undefined;
+    //     d.fy = undefined;
+    // }
+
+    var grafo = JSON.parse(document.getElementById('grafo').innerHTML);
+    update(grafo.links, grafo.nodes);
+
+</script>
+
+</body>
+</html>

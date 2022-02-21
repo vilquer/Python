@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- Adaptado de: http://bl.ocks.org/fancellu/2c782394602a93921faff74e594d1bb1 
+     GNU General Public License, version 3. -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        .node {}
+
+        .link { stroke: #999; stroke-opacity: .6; stroke-width: 1px; }
+    </style>
+</head>
+<body>
+<svg width="960" height="600"></svg>
+
+<script src="https://d3js.org/d3.v4.min.js" type="text/javascript"></script>
+<script src="https://d3js.org/d3-selection-multi.v1.js"></script>
+
+<script type="application/json" id="grafo">
+
+{"directed": true, "multigraph": false, "graph": {}, "nodes": [{"name": "0271043369", "label": "", "type": "IE", "id": "0271043369"}, {"name": "00002670755020", "label": "PRODUTOR     ", "type": "F", "id": "00002670755020"}, {"name": "00056181418091", "label": "PRODUTOR     ", "type": "F", "id": "00056181418091"}, {"name": "00068931956053", "label": "PRODUTOR     ", "type": "F", "id": "00068931956053"}, {"name": "0851029817", "label": "", "type": "IE", "id": "0851029817"}, {"name": "0851052843", "label": "", "type": "IE", "id": "0851052843"}, {"name": "00065271742091", "label": "PRODUTOR     ", "type": "F", "id": "00065271742091"}, {"name": "0851052851", "label": "", "type": "IE", "id": "0851052851"}, {"name": "00002546468081", "label": "PRODUTOR     ", "type": "F", "id": "00002546468081"}, {"name": "0851053360", "label": "", "type": "IE", "id": "0851053360"}, {"name": "00072156619034", "label": "PRODUTOR     ", "type": "F", "id": "00072156619034"}, {"name": "0851053408", "label": "", "type": "IE", "id": "0851053408"}, {"name": "0851053688", "label": "", "type": "IE", "id": "0851053688"}, {"name": "00073966886049", "label": "PRODUTOR     ", "type": "F", "id": "00073966886049"}, {"name": "0851054030", "label": "", "type": "IE", "id": "0851054030"}, {"name": "00068669569000", "label": "PRODUTOR     ", "type": "F", "id": "00068669569000"}, {"name": "1571052418", "label": "", "type": "IE", "id": "1571052418"}, {"name": "00033715440015", "label": "PRODUTOR     ", "type": "F", "id": "00033715440015"}, {"name": "2061012897", "label": "", "type": "IE", "id": "2061012897"}, {"name": "00076172945068", "label": "PRODUTOR     ", "type": "F", "id": "00076172945068"}, {"name": "2061012900", "label": "", "type": "IE", "id": "2061012900"}, {"name": "00019623089015", "label": "PRODUTOR     ", "type": "F", "id": "00019623089015"}, {"name": "2061012919", "label": "", "type": "IE", "id": "2061012919"}, {"name": "00058822178068", "label": "PRODUTOR     ", "type": "F", "id": "00058822178068"}, {"name": "2061012927", "label": "", "type": "IE", "id": "2061012927"}, {"name": "00036400890068", "label": "PRODUTOR     ", "type": "F", "id": "00036400890068"}, {"name": "2101018211", "label": "", "type": "IE", "id": "2101018211"}, {"name": "00045848670030", "label": "PRODUTOR     ", "type": "F", "id": "00045848670030"}, {"name": "2741012630", "label": "", "type": "IE", "id": "2741012630"}, {"name": "00033715343087", "label": "PRODUTOR     ", "type": "F", "id": "00033715343087"}, {"name": "2741012649", "label": "", "type": "IE", "id": "2741012649"}, {"name": "00031258263068", "label": "PRODUTOR     ", "type": "F", "id": "00031258263068"}, {"name": "2741012657", "label": "", "type": "IE", "id": "2741012657"}, {"name": "00047811021072", "label": "PRODUTOR     ", "type": "F", "id": "00047811021072"}, {"name": "2741012665", "label": "", "type": "IE", "id": "2741012665"}, {"name": "00000474226026", "label": "PRODUTOR     ", "type": "F", "id": "00000474226026"}, {"name": "2741012690", "label": "", "type": "IE", "id": "2741012690"}, {"name": "00000619075023", "label": "PRODUTOR     ", "type": "F", "id": "00000619075023"}, {"name": "2741012703", "label": "", "type": "IE", "id": "2741012703"}, {"name": "00088207013087", "label": "PRODUTOR     ", "type": "F", "id": "00088207013087"}, {"name": "2741012711", "label": "", "type": "IE", "id": "2741012711"}, {"name": "00056969848000", "label": "PRODUTOR     ", "type": "F", "id": "00056969848000"}, {"name": "2741012738", "label": "", "type": "IE", "id": "2741012738"}, {"name": "00027786226087", "label": "PRODUTOR     ", "type": "F", "id": "00027786226087"}, {"name": "2741012746", "label": "", "type": "IE", "id": "2741012746"}, {"name": "00051534401091", "label": "PRODUTOR     ", "type": "F", "id": "00051534401091"}, {"name": "2741012754", "label": "", "type": "IE", "id": "2741012754"}, {"name": "00050058924000", "label": "PRODUTOR     ", "type": "F", "id": "00050058924000"}, {"name": "2741012789", "label": "", "type": "IE", "id": "2741012789"}, {"name": "00002641228017", "label": "PRODUTOR     ", "type": "F", "id": "00002641228017"}, {"name": "2741012843", "label": "", "type": "IE", "id": "2741012843"}, {"name": "00000782259065", "label": "PRODUTOR     ", "type": "F", "id": "00000782259065"}, {"name": "2741013068", "label": "", "type": "IE", "id": "2741013068"}, {"name": "00051534495053", "label": "PRODUTOR     ", "type": "F", "id": "00051534495053"}, {"name": "3041014310", "label": "", "type": "IE", "id": "3041014310"}, {"name": "00088420000000", "label": "PRODUTOR     ", "type": "F", "id": "00088420000000"}, {"name": "3041014329", "label": "", "type": "IE", "id": "3041014329"}, {"name": "00095328041020", "label": "PRODUTOR     ", "type": "F", "id": "00095328041020"}, {"name": "3041014361", "label": "", "type": "IE", "id": "3041014361"}, {"name": "00019626860006", "label": "PRODUTOR     ", "type": "F", "id": "00019626860006"}, {"name": "3041014469", "label": "", "type": "IE", "id": "3041014469"}, {"name": "00041423941004", "label": "PRODUTOR     ", "type": "F", "id": "00041423941004"}, {"name": "3041014523", "label": "", "type": "IE", "id": "3041014523"}, {"name": "00027789594087", "label": "PRODUTOR     ", "type": "F", "id": "00027789594087"}, {"name": "3041014647", "label": "", "type": "IE", "id": "3041014647"}, {"name": "00020526482087", "label": "PRODUTOR     ", "type": "F", "id": "00020526482087"}, {"name": "3281012142", "label": "", "type": "IE", "id": "3281012142"}, {"name": "00041146972091", "label": "PRODUTOR     ", "type": "F", "id": "00041146972091"}, {"name": "3281012169", "label": "", "type": "IE", "id": "3281012169"}, {"name": "00000821710095", "label": "PRODUTOR     ", "type": "F", "id": "00000821710095"}, {"name": "3281012223", "label": "", "type": "IE", "id": "3281012223"}, {"name": "00039263240078", "label": "PRODUTOR     ", "type": "F", "id": "00039263240078"}, {"name": "3281012231", "label": "", "type": "IE", "id": "3281012231"}, {"name": "00068716826000", "label": "PRODUTOR     ", "type": "F", "id": "00068716826000"}, {"name": "3281012240", "label": "", "type": "IE", "id": "3281012240"}, {"name": "00002648571000", "label": "PRODUTOR     ", "type": "F", "id": "00002648571000"}, {"name": "3281012258", "label": "", "type": "IE", "id": "3281012258"}, {"name": "00053500261000", "label": "PRODUTOR     ", "type": "F", "id": "00053500261000"}, {"name": "3281012274", "label": "", "type": "IE", "id": "3281012274"}, {"name": "00093409672087", "label": "PRODUTOR     ", "type": "F", "id": "00093409672087"}, {"name": "3281012665", "label": "", "type": "IE", "id": "3281012665"}, {"name": "00098836048072", "label": "PRODUTOR     ", "type": "F", "id": "00098836048072"}, {"name": "3311016035", "label": "", "type": "IE", "id": "3311016035"}, {"name": "00041421752034", "label": "PRODUTOR     ", "type": "F", "id": "00041421752034"}, {"name": "3311016043", "label": "", "type": "IE", "id": "3311016043"}, {"name": "00077777433091", "label": "PRODUTOR     ", "type": "F", "id": "00077777433091"}, {"name": "3311016051", "label": "", "type": "IE", "id": "3311016051"}, {"name": "00076581934020", "label": "PRODUTOR     ", "type": "F", "id": "00076581934020"}, {"name": "3311016060", "label": "", "type": "IE", "id": "3311016060"}, {"name": "00053061306072", "label": "PRODUTOR     ", "type": "F", "id": "00053061306072"}, {"name": "3311016078", "label": "", "type": "IE", "id": "3311016078"}, {"name": "00083036342087", "label": "PRODUTOR     ", "type": "F", "id": "00083036342087"}, {"name": "3311016086", "label": "", "type": "IE", "id": "3311016086"}, {"name": "00025968149000", "label": "PRODUTOR     ", "type": "F", "id": "00025968149000"}, {"name": "3311016094", "label": "", "type": "IE", "id": "3311016094"}, {"name": "00072156040044", "label": "PRODUTOR     ", "type": "F", "id": "00072156040044"}, {"name": "3311016108", "label": "", "type": "IE", "id": "3311016108"}, {"name": "00063554429015", "label": "PRODUTOR     ", "type": "F", "id": "00063554429015"}, {"name": "3311016124", "label": "", "type": "IE", "id": "3311016124"}, {"name": "00037902547034", "label": "PRODUTOR     ", "type": "F", "id": "00037902547034"}, {"name": "3311016132", "label": "", "type": "IE", "id": "3311016132"}, {"name": "00038989336015", "label": "PRODUTOR     ", "type": "F", "id": "00038989336015"}, {"name": "3311016426", "label": "", "type": "IE", "id": "3311016426"}, {"name": "00037901419091", "label": "PRODUTOR     ", "type": "F", "id": "00037901419091"}, {"name": "3311016477", "label": "", "type": "IE", "id": "3311016477"}, {"name": "00083229930053", "label": "PRODUTOR     ", "type": "F", "id": "00083229930053"}], "links": [{"type": "", "source": "0271043369", "target": "00002670755020"}, {"type": "", "source": "0271043369", "target": "00056181418091"}, {"type": "", "source": "0271043369", "target": "00068931956053"}, {"type": "", "source": "0851029817", "target": "00002670755020"}, {"type": "", "source": "0851029817", "target": "00056181418091"}, {"type": "", "source": "0851029817", "target": "00068931956053"}, {"type": "", "source": "0851052843", "target": "00002670755020"}, {"type": "", "source": "0851052843", "target": "00065271742091"}, {"type": "", "source": "0851052851", "target": "00002670755020"}, {"type": "", "source": "0851052851", "target": "00002546468081"}, {"type": "", "source": "0851053360", "target": "00002670755020"}, {"type": "", "source": "0851053360", "target": "00072156619034"}, {"type": "", "source": "0851053408", "target": "00002670755020"}, {"type": "", "source": "0851053688", "target": "00002670755020"}, {"type": "", "source": "0851053688", "target": "00073966886049"}, {"type": "", "source": "0851054030", "target": "00002670755020"}, {"type": "", "source": "0851054030", "target": "00068669569000"}, {"type": "", "source": "1571052418", "target": "00002670755020"}, {"type": "", "source": "1571052418", "target": "00033715440015"}, {"type": "", "source": "2061012897", "target": "00002670755020"}, {"type": "", "source": "2061012897", "target": "00076172945068"}, {"type": "", "source": "2061012900", "target": "00002670755020"}, {"type": "", "source": "2061012900", "target": "00019623089015"}, {"type": "", "source": "2061012919", "target": "00002670755020"}, {"type": "", "source": "2061012919", "target": "00058822178068"}, {"type": "", "source": "2061012927", "target": "00002670755020"}, {"type": "", "source": "2061012927", "target": "00036400890068"}, {"type": "", "source": "2101018211", "target": "00002670755020"}, {"type": "", "source": "2101018211", "target": "00045848670030"}, {"type": "", "source": "2741012630", "target": "00002670755020"}, {"type": "", "source": "2741012630", "target": "00033715343087"}, {"type": "", "source": "2741012649", "target": "00002670755020"}, {"type": "", "source": "2741012649", "target": "00031258263068"}, {"type": "", "source": "2741012657", "target": "00002670755020"}, {"type": "", "source": "2741012657", "target": "00047811021072"}, {"type": "", "source": "2741012665", "target": "00002670755020"}, {"type": "", "source": "2741012665", "target": "00000474226026"}, {"type": "", "source": "2741012690", "target": "00002670755020"}, {"type": "", "source": "2741012690", "target": "00000619075023"}, {"type": "", "source": "2741012703", "target": "00002670755020"}, {"type": "", "source": "2741012703", "target": "00088207013087"}, {"type": "", "source": "2741012711", "target": "00002670755020"}, {"type": "", "source": "2741012711", "target": "00056969848000"}, {"type": "", "source": "2741012738", "target": "00002670755020"}, {"type": "", "source": "2741012738", "target": "00027786226087"}, {"type": "", "source": "2741012746", "target": "00002670755020"}, {"type": "", "source": "2741012746", "target": "00051534401091"}, {"type": "", "source": "2741012754", "target": "00002670755020"}, {"type": "", "source": "2741012754", "target": "00050058924000"}, {"type": "", "source": "2741012789", "target": "00002670755020"}, {"type": "", "source": "2741012789", "target": "00002641228017"}, {"type": "", "source": "2741012843", "target": "00002670755020"}, {"type": "", "source": "2741012843", "target": "00000782259065"}, {"type": "", "source": "2741013068", "target": "00002670755020"}, {"type": "", "source": "2741013068", "target": "00051534495053"}, {"type": "", "source": "3041014310", "target": "00002670755020"}, {"type": "", "source": "3041014310", "target": "00088420000000"}, {"type": "", "source": "3041014329", "target": "00002670755020"}, {"type": "", "source": "3041014329", "target": "00095328041020"}, {"type": "", "source": "3041014361", "target": "00002670755020"}, {"type": "", "source": "3041014361", "target": "00019626860006"}, {"type": "", "source": "3041014469", "target": "00002670755020"}, {"type": "", "source": "3041014469", "target": "00041423941004"}, {"type": "", "source": "3041014523", "target": "00002670755020"}, {"type": "", "source": "3041014523", "target": "00027789594087"}, {"type": "", "source": "3041014647", "target": "00002670755020"}, {"type": "", "source": "3041014647", "target": "00020526482087"}, {"type": "", "source": "3281012142", "target": "00002670755020"}, {"type": "", "source": "3281012142", "target": "00041146972091"}, {"type": "", "source": "3281012169", "target": "00002670755020"}, {"type": "", "source": "3281012169", "target": "00000821710095"}, {"type": "", "source": "3281012223", "target": "00002670755020"}, {"type": "", "source": "3281012223", "target": "00039263240078"}, {"type": "", "source": "3281012231", "target": "00002670755020"}, {"type": "", "source": "3281012231", "target": "00068716826000"}, {"type": "", "source": "3281012240", "target": "00002670755020"}, {"type": "", "source": "3281012240", "target": "00002648571000"}, {"type": "", "source": "3281012258", "target": "00002670755020"}, {"type": "", "source": "3281012258", "target": "00053500261000"}, {"type": "", "source": "3281012274", "target": "00002670755020"}, {"type": "", "source": "3281012274", "target": "00093409672087"}, {"type": "", "source": "3281012665", "target": "00002670755020"}, {"type": "", "source": "3281012665", "target": "00098836048072"}, {"type": "", "source": "3311016035", "target": "00002670755020"}, {"type": "", "source": "3311016035", "target": "00041421752034"}, {"type": "", "source": "3311016043", "target": "00002670755020"}, {"type": "", "source": "3311016043", "target": "00077777433091"}, {"type": "", "source": "3311016051", "target": "00002670755020"}, {"type": "", "source": "3311016051", "target": "00076581934020"}, {"type": "", "source": "3311016060", "target": "00002670755020"}, {"type": "", "source": "3311016060", "target": "00053061306072"}, {"type": "", "source": "3311016078", "target": "00002670755020"}, {"type": "", "source": "3311016078", "target": "00083036342087"}, {"type": "", "source": "3311016086", "target": "00002670755020"}, {"type": "", "source": "3311016086", "target": "00025968149000"}, {"type": "", "source": "3311016094", "target": "00002670755020"}, {"type": "", "source": "3311016094", "target": "00072156040044"}, {"type": "", "source": "3311016108", "target": "00002670755020"}, {"type": "", "source": "3311016108", "target": "00063554429015"}, {"type": "", "source": "3311016124", "target": "00002670755020"}, {"type": "", "source": "3311016124", "target": "00037902547034"}, {"type": "", "source": "3311016132", "target": "00002670755020"}, {"type": "", "source": "3311016132", "target": "00038989336015"}, {"type": "", "source": "3311016426", "target": "00002670755020"}, {"type": "", "source": "3311016426", "target": "00037901419091"}, {"type": "", "source": "3311016477", "target": "00002670755020"}, {"type": "", "source": "3311016477", "target": "00083229930053"}]}
+
+</script>
+
+<script type="text/javascript">
+    var colors = d3.scaleOrdinal(d3.schemeCategory10);
+
+    var svg = d3.select("svg"),
+        width = +svg.attr("width"),
+        height = +svg.attr("height"),
+        node,
+        link;
+
+    svg.append('defs').append('marker')
+        .attrs({'id':'arrowhead',
+            'viewBox':'-0 -5 10 10',
+            'refX':13,
+            'refY':0,
+            'orient':'auto',
+            'markerWidth':13,
+            'markerHeight':13,
+            'xoverflow':'visible'})
+        .append('svg:path')
+        .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
+        .attr('fill', '#999')
+        .style('stroke','none');
+
+    var simulation = d3.forceSimulation()
+        .force("link", d3.forceLink().id(function (d) {return d.id;}).distance(100).strength(1))
+        .force("charge", d3.forceManyBody())
+        .force("center", d3.forceCenter(width / 2, height / 2));
+
+    d3.json("graph.json", function (error, graph) {
+        if (error) throw error;
+        update(graph.links, graph.nodes);
+    })
+
+    function update(links, nodes) {
+        link = svg.selectAll(".link")
+            .data(links)
+            .enter()
+            .append("line")
+            .attr("class", "link")
+            .attr('marker-end','url(#arrowhead)')
+
+        link.append("title")
+            .text(function (d) {return d.type;});
+
+        edgepaths = svg.selectAll(".edgepath")
+            .data(links)
+            .enter()
+            .append('path')
+            .attrs({
+                'class': 'edgepath',
+                'fill-opacity': 0,
+                'stroke-opacity': 0,
+                'id': function (d, i) {return 'edgepath' + i}
+            })
+            .style("pointer-events", "none");
+
+        edgelabels = svg.selectAll(".edgelabel")
+            .data(links)
+            .enter()
+            .append('text')
+            .style("pointer-events", "none")
+            .attrs({
+                'class': 'edgelabel',
+                'id': function (d, i) {return 'edgelabel' + i},
+                'font-size': 10,
+                'fill': '#aaa'
+            });
+
+        edgelabels.append('textPath')
+            .attr('xlink:href', function (d, i) {return '#edgepath' + i})
+            .style("text-anchor", "middle")
+            .style("pointer-events", "none")
+            .attr("startOffset", "50%")
+            .text(function (d) {return d.type});
+
+        node = svg.selectAll(".node")
+            .data(nodes)
+            .enter()
+            .append("g")
+            .attr("class", "node")
+            .call(d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    //.on("end", dragended)
+            );
+
+        node.append("circle")
+            .attr("r", 8) //tamanhao da bola
+            .style("fill", function (d, i) {return colors(i);}) //cor da Bola
+
+        node.append("title") //balão 
+            .text(function (d) {return d.id;});
+
+        node.append("text") //textio ao lado da bola
+            .attr("dy", -3)
+            .text(function (d) {return d.name+" - "+d.type;});
+
+        simulation
+            .nodes(nodes)
+            .on("tick", ticked);
+
+        simulation.force("link")
+            .links(links);
+    }
+
+    function ticked() {
+        link
+            .attr("x1", function (d) {return d.source.x;})
+            .attr("y1", function (d) {return d.source.y;})
+            .attr("x2", function (d) {return d.target.x;})
+            .attr("y2", function (d) {return d.target.y;});
+
+        node
+            .attr("transform", function (d) {return "translate(" + d.x + ", " + d.y + ")";});
+
+        edgepaths.attr('d', function (d) {
+            return 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y;
+        });
+
+        edgelabels.attr('transform', function (d) {
+            if (d.target.x < d.source.x) {
+                var bbox = this.getBBox();
+
+                rx = bbox.x + bbox.width / 2;
+                ry = bbox.y + bbox.height / 2;
+                return 'rotate(180 ' + rx + ' ' + ry + ')';
+            }
+            else {
+                return 'rotate(0)';
+            }
+        });
+    }
+
+    function dragstarted(d) {
+        if (!d3.event.active) simulation.alphaTarget(0.3).restart()
+        d.fx = d.x;
+        d.fy = d.y;
+    }
+
+    function dragged(d) {
+        d.fx = d3.event.x;
+        d.fy = d3.event.y;
+    }
+
+    // function dragended(d) {
+    //     if (!d3.event.active) simulation.alphaTarget(0);
+    //     d.fx = undefined;
+    //     d.fy = undefined;
+    // }
+
+    var grafo = JSON.parse(document.getElementById('grafo').innerHTML);
+    update(grafo.links, grafo.nodes);
+
+</script>
+
+</body>
+</html>

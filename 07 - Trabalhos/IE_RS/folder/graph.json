@@ -1,0 +1,48 @@
+{
+    "nodes": [
+      {
+        "name": "00001020723025",
+        "label": "PRODUTOR",
+        "type": "J",
+        "id": 1
+      },
+      {
+        "name": "Michael",
+        "label": "PRODUTOR",
+        "id": 2
+      },
+      {
+        "name": "Neo4j",
+        "label": "PRODUTOR",
+        "id": 3
+      },
+      {
+        "name": "Graph Database",
+        "label": "PRODUTOR",
+        "id": 4
+      }
+    ],
+    "links": [
+      {
+        "source": 1,
+        "target": 2,
+        "type": "KNOWS",
+        "since": 2010
+      },
+      {
+        "source": 1,
+        "target": 3,
+        "type": "FOUNDED"
+      },
+      {
+        "source": 2,
+        "target": 3,
+        "type": "WORKS_ON"
+      },
+      {
+        "source": 3,
+        "target": 4,
+        "type": "IS_A"
+      }
+    ]
+  }
